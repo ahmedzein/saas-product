@@ -32,8 +32,33 @@ body {
     list-style-type: none;
 }
 
+a {
+    text-decoration: none;
+    text-decoration-color: none;
+}
+
 .center {
     text-align: center;
+}
+
+img {
+    width: 100%;
+}
+
+.section-movie {
+    background-color: #B0B0B0;
+}
+
+.section-light {
+    background-color: #6699FF;
+}
+
+.section-medium {
+    background-color: #3366FF;
+}
+
+.section-dark {
+    background-color: #6600FF;
 }
 
 button {
@@ -56,12 +81,84 @@ button:active {
     background-color: #6600FF;
 }
 
+button-two {
+    font-size: 1em;
+    border: 3px solid #000;
+    background-color: #3366FF;
+    border-radius: 16px;
+    padding: 0.5em 0.75em;
+}
+
+button-two:hover {
+    background-color: #6699FF;
+    cursor: pointer;
+    color: #fff;
+}
+
+button-two:active {
+    background-color: #6600FF;
+}
+.footer {
+   text-align: center;
+}
+
+.plans {
+    list-style-type: none;
+}
+
+label {
+    display: block;
+}
+
+input +label {
+    display: inline-block;
+}
+
+.radio {
+    white-space: nowrap;
+}
+
+.basic {
+    padding: .75em;
+    width: 100%;
+}
+
+
 
 @media only screen and (min-width: 25em) {
+    
+    .nav li {
+        display: inline-block;
+    }
+    
+    .nav {
+        text-align: center;
+    }
+
+    .copyright{
+        text-align: center;
+    }
+
     
 }
 
 @media only screen and (min-width: 38em) {
+    
+     .title {
+        float:left;
+    }
+
+    .nav {
+        text-align: center;
+    }
+    
+    .nav-footer {
+        text-align: right;
+    }
+
+    .copyright{
+        text-align: left;
+    }
     
 }
 
