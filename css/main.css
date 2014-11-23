@@ -45,7 +45,16 @@ img {
     width: 100%;
 }
 
-.section-movie {
+.billboard {
+    overflow: hidden;
+    background-image: url(http://placehold.it/500x500);
+    background-size: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.section-poster {
     background-color: #B0B0B0;
 }
 
