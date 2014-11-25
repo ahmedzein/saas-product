@@ -47,11 +47,15 @@ img {
 
 .billboard {
     overflow: hidden;
-    background-image: url(http://placehold.it/500x500);
+    background-image: url(http://placehold.it/1000x1000);
     background-size: 100%;
-    width: 100%;
     background-repeat: no-repeat;
     background-position: center center;
+}
+
+.logo {
+    height: 3rem;
+    width: auto;
 }
 
 .section-poster {
