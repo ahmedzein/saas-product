@@ -46,11 +46,8 @@ img {
 }
 
 .billboard {
-    overflow: hidden;
-    background-image: url(http://placehold.it/1000x1000);
-    background-size: 1000%;
-    background-repeat: no-repeat;
-    background-position: center center;
+    background-image: url(../images/beatsshoot.jpg)no-repeat center center; 
+    background-size: cover;
 }
 
 .logo {
@@ -137,7 +134,6 @@ input +label {
 }
 
 
-
 @media only screen and (min-width: 25em) {
     
     .nav li {
@@ -176,5 +172,21 @@ input +label {
 }
 
 @media only screen and (min-width: 60em) {
+     .title {
+        float:left;
+    }
+
+    .nav {
+        text-align: right;
+        float: right;
+    }
+    
+    .nav-footer {
+        text-align: right;
+    }
+
+    .copyright{
+        text-align: left;
+    }
     
 }
