@@ -30,7 +30,6 @@ body {
     margin: 0;
     padding: 0;
     list-style-type: none;
-    float: left;
 }
 
 a {
@@ -67,7 +66,7 @@ img {
     background-color: #6600FF;
 }
 
-button {
+.button {
     font-size: 2em;
     border: 3px solid #000;
     background-color: #3366FF;
@@ -77,20 +76,20 @@ button {
     padding: 0.5em 0.75em;
 }
 
-button:hover {
+.button:hover {
     background-color: #6699FF;
     cursor: pointer;
     color: #fff;
 }
 
-button:active {
+.button:active {
     background-color: #6600FF;
 }
 
 button-two {
     font-size: 1em;
     border: 3px solid #000;
-    background-color: #3366FF;
+    background-color: #6699FF;
     border-radius: 16px;
     padding: 0.5em 0.75em;
 }
@@ -98,12 +97,30 @@ button-two {
 button-two:hover {
     background-color: #6699FF;
     cursor: pointer;
-    color: #fff;
 }
 
 button-two:active {
-    background-color: #6600FF;
+    background-color: #3300FF;
 }
+
+.button-three {
+    font-size: 1em;
+    border: 3px solid #000;
+    background-color: #6699FF;
+    border-radius: 16px;
+    padding: 0.5em 0.75em;
+}
+
+.button-three:hover {
+    background-color: #6699FF;
+    cursor: pointer;
+}
+
+.button-three:active {
+    background-color: #3300FF;
+}
+    
+
 .footer {
    text-align: center;
 }
@@ -141,14 +158,34 @@ input +label {
 }
 
 .intro-wrap {
-    background-color: #6600ff;
+    background-color: #3366ff;
     color: #fff;
     width: 100%;
 }
 
-.intor { 
+.intro { 
     max-width: 25em;
     margin: 0 auto;
+}
+
+.skip-link {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.skip-link a {
+    position: absolute;
+    top: -10rem;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5em 0.75em;
+    font-size: 1.25em;
+}
+
+.skip-link a:focus{
+    top:0;
 }
 
 
@@ -199,7 +236,7 @@ input +label {
 
 @media only screen and (min-width: 60em) {
      .title {
-        float:left;
+        float: left;
     }
 
     .nav {
