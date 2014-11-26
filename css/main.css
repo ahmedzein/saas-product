@@ -46,7 +46,7 @@ img {
 }
 
 .billboard {
-    background-image: url(../images/beatsshoot.jpg)no-repeat center center; 
+    background-image: #6699ff url("http://placehold.it/1920x1080/6699ff")no-repeat center center; 
     background-size: cover;
 }
 
@@ -133,6 +133,28 @@ input +label {
     width: 100%;
 }
 
+.banner {
+    position: relative;
+    text-align: center;
+}
+
+.banner-img {
+    padding-top: 56.25%;
+    background: #6699ff url("http://placehold.it/1920x1080/6699ff") no-repeat center center;
+    background-size: cover;
+}
+
+.intro-wrap {
+    background-color: #6600ff;
+    color: #fff;
+    width: 100%;
+}
+
+.intor { 
+    max-width: 25em;
+    margin: 0 auto;
+}
+
 
 @media only screen and (min-width: 25em) {
     
@@ -141,13 +163,18 @@ input +label {
     }
     
     .nav {
-        text-align: center;
+        text-align: right;
+        white-space: nowrap;
     }
 
     .copyright{
         text-align: center;
     }
 
+    .intro-wrap {
+        bottom: 0;
+        position: absolute;
+        background-color: transparent;
     
 }
 
@@ -165,10 +192,13 @@ input +label {
         text-align: right;
     }
 
-    .copyright{
+    .copyright {
         text-align: left;
     }
     
+    .intro-wrap {
+        bottom: 3rem;
+    }
 }
 
 @media only screen and (min-width: 60em) {
