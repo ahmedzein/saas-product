@@ -45,11 +45,6 @@ img {
     width: 100%;
 }
 
-.billboard {
-    background-image: #6699ff url("http://placehold.it/1920x1080/6699ff")no-repeat center center; 
-    background-size: cover;
-}
-
 .logo {
     height: 3rem;
     width: auto;
@@ -181,7 +176,7 @@ input +label {
 @media only screen and (min-width: 38em) {
     
      .title {
-        float:left;
+        float: left;
     }
 
     .nav {
