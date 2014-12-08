@@ -16,6 +16,55 @@ html {
     box-sizing: inherit;
 }
 
+@media only screen and (min-width: 60em) {
+    
+    html {
+        font-size: 110%;
+    }
+    
+    .nav-footer {
+        text-align: right;
+    }
+
+    .copyright{
+        text-align: left;
+    }
+
+}
+
+@media only screen and (min-width: 90em) {
+    
+    html {
+        font-size: 120%;
+    }   
+    
+    .nav-footer {
+        text-align: right;
+    }
+
+    .copyright{
+        text-align: left;
+    }
+
+}
+
+@media only screen and (min-width: 120em) {
+    
+    html {
+        font-size: 130%;
+    }
+
+    .nav-footer {
+        text-align: right;
+    }
+
+    .copyright{
+        text-align: left;
+    }
+
+}
+
+
 body {
     margin: 0;
     padding: 0;
@@ -51,7 +100,7 @@ img {
 }
 
 .section-poster {
-    background-color: #B0B0B0;
+    background-color: #0099cc;
 }
 
 .section-light {
@@ -153,8 +202,12 @@ input +label {
 
 .banner-img {
     padding-top: 56.25%;
-    background: #6699ff url("http://placehold.it/1920x1080/6699ff") no-repeat center center;
+    background: #6699ff url(../images/banner.jpg) no-repeat center center;
     background-size: cover;
+}
+
+.header {
+    position: absolute;
 }
 
 .intro-wrap {
@@ -188,6 +241,25 @@ input +label {
     top:0;
 }
 
+.section-tunein {
+    background-color: #6666ff;
+    border-radius: 16px;
+    padding: 0.5em 0.75em;
+
+}
+
+.section-casual{
+    background-color: #6633ff;
+    border-radius: 16px;
+    padding: 0.5em 0.75em;
+}
+
+.section-addicted {
+    background-color: #6600ff;
+    border-radius: 16px;
+    padding: 0.5em 0.75em;
+}
+
 
 @media only screen and (min-width: 25em) {
     
@@ -208,6 +280,7 @@ input +label {
         bottom: 0;
         position: absolute;
         background-color: transparent;
+    }
     
 }
 
@@ -231,6 +304,7 @@ input +label {
     
     .intro-wrap {
         bottom: 3rem;
+        color: #6666ff;
     }
 }
 
@@ -250,6 +324,12 @@ input +label {
 
     .copyright{
         text-align: left;
+    }
+    
+    .intro-wrap {
+        bottom: 3rem;
+        color: #6666ff;
+        
     }
     
 }
