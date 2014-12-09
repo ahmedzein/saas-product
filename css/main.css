@@ -248,21 +248,35 @@ input +label {
 
 .section-tunein {
     background-color: #6666ff;
-    border-radius: 16px;
+    border-radius: 25px;
     padding: 0.5em 0.75em;
+    border: 10px solid #fff;
 
 }
 
 .section-casual{
     background-color: #6633ff;
-    border-radius: 16px;
+    border-radius: 25px;
     padding: 0.5em 0.75em;
+    border: 10px solid #fff;
 }
 
 .section-addicted {
     background-color: #6600ff;
-    border-radius: 16px;
+    border-radius: 25px;
     padding: 0.5em 0.75em;
+    border: 10px solid #fff;
+}
+
+.section-screens {
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 1em 1.25em;
+}
+
+.screens {
+    width: 100%;
+    height: auto;
 }
 
 

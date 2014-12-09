@@ -45,24 +45,29 @@
                     <label for="name" class="pad-t">Last Name</label>
                     <input id="name" class="basic">
                 </div>
-
-                <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1">
+                
+                 <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1">
                     <label for="cc-number" class="pad-t">Credit Card Number</label>
                     <input type="number" id="cc-number" class="basic">
                 </div>
-
-                <div class="unit unit-xs-1 unit-s-1 unit-m-1-3 unit-l-1-3">
-                    <label for="ex-code" class="pad-t">Expiration Date</label>
-                    <input type="date" id="ex-code" class="basic">
+                
+                <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1">
+                    <h1 class="pad-t kilo">Expiration Date</h1>
                 </div>
                 
-                <div class="unit unit-xs-1 unit-s-1 unit-m-1-3 unit-1-3">
-                    <input type="date" id="ex-code" class="basic" min="2015" max="2030">
+                <div class="unit unit-xs-1 unit-s-1-2 unit-m-1-3 unit-l-1-3">
+                    <label for="ex-month" class="">Month</label>
+                    <input type="number" min="01" max="12" id="ex-month" class="basic">
                 </div>
 
-                <div class="unit unit-xs-1 unit-s-1 unit-m-1-3 unit-l-1-3">
-                    <label for="ex-code" class="pad-t">Security Code</label>
-                    <input type="number" id="ex-code" class="basic">
+                <div class="unit unit-xs-1 unit-s-1-2 unit-m-1-3 unit-1-3">
+                    <label for="ex-year" class="">Year</label>
+                    <input type="number" min="2015" max="2030" id="ex-code" class="basic">
+                </div>
+
+                <div class="unit unit-xs-1 unit-s-1-2 unit-m-1-3 unit-l-1-3">
+                    <label for="ex-code" class="">Security Code</label>
+                    <input type="number" placeholder="3 digits located on back of your card" id="ex-code" class="basic">
                 </div>
 
             </div>
