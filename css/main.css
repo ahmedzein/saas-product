@@ -221,6 +221,11 @@ input +label {
     margin: 0 auto;
 }
 
+.secondary {
+    max-width: 503m;
+    margin: 0 auto;
+}
+
 .skip-link {
     margin: 0;
     padding: 0;
