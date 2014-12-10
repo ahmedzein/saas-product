@@ -94,6 +94,10 @@ body {
     list-style-type: none;
 }
 
+.nav a {
+    color: white;
+}
+
 a {
     text-decoration: none;
     text-decoration-color: none;
@@ -229,8 +233,6 @@ input +label {
 }
 
 .basic-2 {
-    padding: 2em;
-    height: 2em;
     width: 100%;
 }
 
@@ -245,9 +247,6 @@ input +label {
     background-size: cover;
 }
 
-.header {
-    position: absolute;
-}
 
 .intro-wrap {
     background-color: #3366ff;
@@ -344,15 +343,22 @@ input +label {
     }
     
     button {
-    font-size: 1em;
-    border: 3px solid #fff;
-    background-color: #3366FF;
-    font-family: Arial;
-    font-weight: bold;
-    border-radius: 16px;
-    padding: 0.5em 0.75em;
-    color: white;
-}
+        font-size: 1em;
+        border: 3px solid #fff;
+        background-color: #3366FF;
+        font-family: Arial;
+        font-weight: bold;
+        border-radius: 16px;
+        padding: 0.5em 0.75em;
+        color: white;
+    }
+    
+    .header {
+        position: absolute;
+        z-index: 1000;
+        width: 100%;
+        background-color: rgba(102,153,255,0.75);
+    }
 
     
 }
@@ -377,7 +383,7 @@ input +label {
     
     .intro-wrap {
         bottom: 3rem;
-        color: #6666ff;
+        color: #fff;
     }
     
     .radio-viewer {
@@ -386,15 +392,15 @@ input +label {
     }
     
     button {
-    font-size: 1.5em;
-    border: 3px solid #fff;
-    background-color: #3366FF;
-    font-family: Arial;
-    font-weight: bold;
-    border-radius: 16px;
-    padding: 0.5em 0.75em;
-    color: white;
-}
+        font-size: 1.5em;
+        border: 3px solid #fff;
+        background-color: #3366FF;
+        font-family: Arial;
+        font-weight: bold;
+        border-radius: 16px;
+        padding: 0.5em 0.75em;
+        color: white;
+    }
 
 }
 
