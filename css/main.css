@@ -279,6 +279,9 @@ input +label {
     height: auto;
 }
 
+.radio-viewer {
+    text-align: left;
+}
 
 @media only screen and (min-width: 25em) {
     
@@ -325,6 +328,11 @@ input +label {
         bottom: 3rem;
         color: #6666ff;
     }
+    
+    .radio-viewer {
+        text-align: center;
+        color: #fff;
+}
 }
 
 @media only screen and (min-width: 60em) {
