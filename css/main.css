@@ -195,7 +195,8 @@ input +label {
 }
 
 .basic-2 {
-    padding: 3em;
+    padding: 2em;
+    height: 3em;
     width: 100%;
 }
 
@@ -226,7 +227,7 @@ input +label {
 }
 
 .secondary {
-    max-width: 503m;
+    max-width: 50em;
     margin: 0 auto;
 }
 
