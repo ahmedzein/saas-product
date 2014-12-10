@@ -116,10 +116,10 @@ img {
 }
 
 .button {
-    font-size: 2em;
+    font-size: 1.5em;
     border: 3px solid #000;
     background-color: #3366FF;
-    font-family: Verdana;
+    font-family: Arial;
     font-weight: bold;
     border-radius: 16px;
     padding: 0.5em 0.75em;
@@ -135,26 +135,25 @@ img {
     background-color: #6600FF;
 }
 
-button-two {
+.button-two {
     font-size: 1em;
-    border: 3px solid #000;
     background-color: #6699FF;
-    border-radius: 16px;
+    border-radius: 10px;
     padding: 0.5em 0.75em;
 }
 
-button-two:hover {
+.button-two:hover {
     background-color: #6699FF;
     cursor: pointer;
 }
 
-button-two:active {
+.button-two:active {
     background-color: #3300FF;
 }
 
 .button-three {
     font-size: 1em;
-    border: 3px solid #000;
+    border: 3px solid #6666FF;
     background-color: #6699FF;
     border-radius: 16px;
     padding: 0.5em 0.75em;
@@ -191,7 +190,12 @@ input +label {
 }
 
 .basic {
-    padding: .75em;
+    padding: 1em;
+    width: 100%;
+}
+
+.basic-2 {
+    padding: 3em;
     width: 100%;
 }
 
