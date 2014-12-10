@@ -61,6 +61,18 @@ html {
     .copyright{
         text-align: left;
     }
+    
+    button {
+    font-size: 2em;
+    border: 3px solid #fff;
+    background-color: #3366FF;
+    font-family: Arial;
+    font-weight: bold;
+    border-radius: 16px;
+    padding: 0.5em 0.75em;
+    color: white;
+}
+
 
 }
 
@@ -68,6 +80,7 @@ html {
 body {
     margin: 0;
     padding: 0;
+    background-color: #9999ff;
 }
 
 .flex {
@@ -100,7 +113,7 @@ img {
 }
 
 .section-poster {
-    background-color: #0099cc;
+    background-color: #9999ff;
 }
 
 .section-light {
@@ -112,6 +125,27 @@ img {
 }
 
 .section-dark {
+    background-color: #6600FF;
+}
+
+button {
+    font-size: 2em;
+    border: 3px solid #fff;
+    background-color: #3366FF;
+    font-family: Arial;
+    font-weight: bold;
+    border-radius: 16px;
+    padding: 0.5em 0.75em;
+    color: white;
+}
+
+button:hover {
+    background-color: #6699FF;
+    cursor: pointer;
+    color: #fff;
+}
+
+button:active {
     background-color: #6600FF;
 }
 
@@ -196,7 +230,7 @@ input +label {
 
 .basic-2 {
     padding: 2em;
-    height: 3em;
+    height: 2em;
     width: 100%;
 }
 
@@ -227,7 +261,7 @@ input +label {
 }
 
 .secondary {
-    max-width: 50em;
+    max-width: 45em;
     margin: 0 auto;
 }
 
@@ -255,7 +289,7 @@ input +label {
     background-color: #6666ff;
     border-radius: 25px;
     padding: 0.5em 0.75em;
-    border: 10px solid #fff;
+    border: 10px solid #9999ff;
 
 }
 
@@ -263,14 +297,14 @@ input +label {
     background-color: #6633ff;
     border-radius: 25px;
     padding: 0.5em 0.75em;
-    border: 10px solid #fff;
+    border: 10px solid #9999ff;
 }
 
 .section-addicted {
     background-color: #6600ff;
     border-radius: 25px;
     padding: 0.5em 0.75em;
-    border: 10px solid #fff;
+    border: 10px solid #9999ff;
 }
 
 .section-screens {
@@ -309,6 +343,18 @@ input +label {
         background-color: transparent;
     }
     
+    button {
+    font-size: 1em;
+    border: 3px solid #fff;
+    background-color: #3366FF;
+    font-family: Arial;
+    font-weight: bold;
+    border-radius: 16px;
+    padding: 0.5em 0.75em;
+    color: white;
+}
+
+    
 }
 
 @media only screen and (min-width: 38em) {
@@ -337,7 +383,19 @@ input +label {
     .radio-viewer {
         text-align: center;
         color: #fff;
+    }
+    
+    button {
+    font-size: 1.5em;
+    border: 3px solid #fff;
+    background-color: #3366FF;
+    font-family: Arial;
+    font-weight: bold;
+    border-radius: 16px;
+    padding: 0.5em 0.75em;
+    color: white;
 }
+
 }
 
 @media only screen and (min-width: 60em) {
