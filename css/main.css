@@ -357,7 +357,7 @@ input +label {
         position: absolute;
         z-index: 1000;
         width: 100%;
-        background-color: rgba(102,153,255,0.75);
+        background-color: rgba(102,153,255,0.60);
     }
 
     
