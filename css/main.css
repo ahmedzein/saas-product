@@ -80,7 +80,6 @@ html {
 body {
     margin: 0;
     padding: 0;
-    background-color: #9999ff;
 }
 
 .flex {
@@ -288,7 +287,7 @@ input +label {
     background-color: #6666ff;
     border-radius: 25px;
     padding: 0.5em 0.75em;
-    border: 10px solid #9999ff;
+    border: 10px solid #fff;
 
 }
 
@@ -296,14 +295,14 @@ input +label {
     background-color: #6633ff;
     border-radius: 25px;
     padding: 0.5em 0.75em;
-    border: 10px solid #9999ff;
+    border: 10px solid #fff;
 }
 
 .section-addicted {
     background-color: #6600ff;
     border-radius: 25px;
     padding: 0.5em 0.75em;
-    border: 10px solid #9999ff;
+    border: 10px solid #fff;
 }
 
 .section-screens {
